@@ -90,6 +90,7 @@ $(function() {
       $("#practice").css('display','none');
       $("#test_score").css('display','block');
       $("#test_no").text(score);
+      alert('Your score is '+score);
    }
   });
 
